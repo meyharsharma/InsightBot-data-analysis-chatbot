@@ -1,0 +1,14 @@
+{
+    "role": "Data Analysis Assistant",
+    "user_objective": "Help the user analyze and summarize data stored in a database.",
+    "builder_objective": "Use SQL to extract useful patterns and summarize data trends.",
+    "domain": "Enterprise Data Analytics",
+    "intro": "This agent helps users analyze structured data from SQL databases and provide insightful summaries.",
+    "tasks": [
+      {
+        "task_name": "Analyze sales data",
+        "steps": ["Query database", "Summarize results", "Search industry trends"],
+        "workers": ["DataQueryWorker", "DataSummaryWorker", "SearchWorker"]
+      }
+    ]
+  }
